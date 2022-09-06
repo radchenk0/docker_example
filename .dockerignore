@@ -1,0 +1,13 @@
+# folders
+node_modules/
+config/
+.git/
+.idea/
+
+# files
+README.md
+Dockerfile
+docker-compose.yaml
+.gitignore
+.env
+.env.sample

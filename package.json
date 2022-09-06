@@ -1,0 +1,28 @@
+{
+  "name": "docker_example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "docker:up": "docker compose up -d",
+    "docker:down": "docker compose down",
+    "docker:stop": "docker compose stop",
+    "docker:start": "docker compose start app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/radchenk0/docker_example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/radchenk0/docker_example/issues"
+  },
+  "homepage": "https://github.com/radchenk0/docker_example#readme",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1"
+  }
+}

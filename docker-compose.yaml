@@ -1,0 +1,14 @@
+---
+version: '3.9'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: docker_example
+    container_name: the_docker_example
+    restart: unless-stopped
+    env_file: ./config/.env.docker
+    ports:
+      - '${EXTERNAL_PORT}:${INTERNAL_PORT}'
